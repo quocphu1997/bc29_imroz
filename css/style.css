@@ -1,0 +1,84 @@
+* {
+  overflow-x: hidden;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.pic-header {
+  width: 50%;
+}
+.navbar {
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 999;
+}
+.bt-header {
+  padding: 1.1rem 2.5rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: 2px solid rgba(254, 254, 255, 0.295);
+  transition: all 0.5s;
+  
+}
+.bt-header:hover{
+    background: #fd4766;
+    color: white;
+    border: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.carousel-item {
+  height: 700px;
+  background-position: center;
+}
+.carousel-item:nth-child(1) {
+  background-image: url(../image/imroz/bg-image-22.jpg);
+}
+.carousel-item:nth-child(2) {
+  background-image: url(../image/imroz/bg-image-23.jpg);
+}
+.carousel-item:nth-child(3) {
+  background-image: url(../image/imroz/bg-image-24.jpg);
+}
+.carousel-item:nth-child(4) {
+  background-image: url(../image/imroz/bg-image-20.jpg);
+}
+.carousel-caption {
+  bottom: 45%;
+  transform: translateY(55%);
+}
+.title_header {
+  display: inline;
+
+  font-size: 6.7rem;
+  font-weight: 900;
+}
+.description {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.btn_title {
+  padding: 1.3rem 2.7rem;
+  border-radius: 35px;
+  text-transform: uppercase;
+  background: #fd4766;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.5s;
+}
+.btn_title:hover {
+  background: transparent;
+  color: #fd4766;
+  border: 2px solid #fd4766;
+}
