@@ -206,7 +206,7 @@
 }
 .project_area {
   background-color: #f7f8fd;
-  height: 1630px;
+  height: 1670px;
 }
 .project_content {
   text-align: center;
@@ -327,13 +327,14 @@
   bottom: 100px;
 }
 /* hover btn */
-.btn_jobcard{
+.btn_jobcard {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin: 2rem;
 }
-.btn_viewpj{
+.btn_viewpj {
+  margin: 1rem 0 0;
   padding: 1.3rem 2.7rem;
   border-radius: 35px;
   text-transform: uppercase;
@@ -351,6 +352,76 @@
   border: 2px solid #fd4766;
 }
 /* about company */
-.about_company{
+.about_company {
   height: 500px;
+}
+.about_content {
+  display: flex;
+}
+.pic_about {
+  padding: 5rem 1rem 5rem 5rem;
+}
+.pic_about img {
+  width: 480px;
+  border-radius: 10px;
+}
+.description_company {
+  margin-left: 2rem;
+}
+.description_company .title_company {
+  padding-top: 5rem;
+  background-image: linear-gradient(
+    125deg,
+    #1c99fe 20%,
+    #7644ff 52%,
+    #fd4766 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+  font-weight: 600;
+}
+.description_company h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.script_about {
+  padding: 2rem 0 1rem;
+  font-size: 1.2rem;
+  color: #626364;
+  font-weight: 100;
+}
+
+.nav_descript .nav1 {
+  border: 0.5px solid rgba(165, 163, 163, 0.671);
+  border-radius: 25px;
+  align-items: center;
+  width: 90%;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.nav-item1 .nav-link {
+  height: 100%;
+  border-radius: 25px;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  font-weight:600;
+  color: #212529;
+}
+.nav-item1 .nav-link.active {
+  background-color: #fd4766;
+}
+.history_btn {
+  margin-left: 0.7rem;
+}
+.history_btn li {
+  list-style: none;
+}
+.history_btn li i {
+  margin-right: 0.5rem;
+}
+.script_mission {
+  margin-left: 0.7rem;
 }
