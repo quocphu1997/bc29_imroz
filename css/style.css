@@ -206,6 +206,7 @@
 }
 .project_area {
   background-color: #f7f8fd;
+  height: 1630px;
 }
 .project_content {
   text-align: center;
@@ -324,4 +325,32 @@
 }
 .job_card:hover .title_card {
   bottom: 100px;
+}
+/* hover btn */
+.btn_jobcard{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 2rem;
+}
+.btn_viewpj{
+  padding: 1.3rem 2.7rem;
+  border-radius: 35px;
+  text-transform: uppercase;
+  background: #fd4766;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+}
+.btn_viewpj:hover {
+  background: transparent;
+  color: #fd4766;
+  border: 2px solid #fd4766;
+}
+/* about company */
+.about_company{
+  height: 500px;
 }
